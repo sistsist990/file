@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+/*왼쪽 콘텐츠 */
+aside{
+	width: 190px;
+	float: left;
+}
+
+/*로그인*/
+aside #login_box{
+	width: 186px;
+	height: 120px;
+	border: solid 1px #dddddd;
+	border-radius: 10px;
+	background-color: #f3f3f3;
+}
+aside #login_title{
+	margin: 10px 0 0 10px;
+}
+aside #input_button{
+	margin: 10px 0 0 10px;
+}
+aside #login_input{
+	float: left;
+}
+aside #login_btn{
+	float: left;
+	margin: 3px 0 0 5px;
+}
+aside #login_input input{
+	width: 100px;
+	height: 20px;
+	border: solid 1px #dddddd;
+}
+aside #login_input li{
+	margin-top: 2px;
+}
+aside #join_search{
+	margin: 10px 0 0 5px;
+}
+
+aside #guestbook{
+	width: 189px;
+	height: 135px;
+	margin-top: 15px;
+	background-color: #eeeeee;
+	border: solid 1px #cccccc;
+	border-radius:10px;
+	box-shadow: 2px 2px 5px #dddddd; 
+}
+
+aside #guestbook_title{
+	width: 165px;
+	padding: 10px 0 0 5px;
+	margin: 0 0 0 8px;
+	border-bottom: solid 1px #cccccc;
+}
+aside #guestbook ul{
+	margin: 10px 0 0 40px;
+}
+aside #guestbook li{
+	margin-top: 5px;
+	list-style-image: url("../img/icon_blue.gif");
+}
+
+
+
+
+
