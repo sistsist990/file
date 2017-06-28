@@ -62,6 +62,55 @@ aside #guestbook li{
 	list-style-image: url("../img/icon_blue.gif");
 }
 
+/*우측 메인 켄텐츠*/
+section#main{
+	width: 758px;
+	float: right;
+}
+
+/*공지사항, 자유게시판, YOUTUBE를 포함하는 박스*/
+section#main #notice_free_youtube{
+	height: 250px;
+	position: relative;
+	margin-top: 10px;
+}
+/*공지사항*/
+section#main #notice{
+	width: 360px;
+	position: absolute;
+}
+section#main .latest_title img.latest_img{
+	float: left;
+}
+section#main .latest_title img.more{
+	float: right;
+}
+
+/*최근 게시물 이미지와 목록*/
+section#main .latest_content .image{
+	float: left;
+	margin: 10px 0 0 20px;
+}
+section#main .latest_content .list{
+	float: right;
+}
+section#main .latest_content li{
+	padding: 10px 0 0 10px;
+}
+section#main .latest_content .list div{
+	float: left;
+}
+section#main .latest_content .list .subject{
+	width: 170px;
+}
+
+
+
+
+
+
+
+
 
 
 
