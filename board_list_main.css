@@ -46,10 +46,67 @@ section#main #search #search_btn{
 	left: 240px;
 }
 
-
-
-
-
+section#main table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%
+}
+section#main tr{
+	height: 30px;
+}
+section#main th{
+	border-top: solid 2px #aaaaaa;
+	background-color: #eeeeee;
+}
+section#main td{
+	border-bottom: solid 1px #dddddd;
+}
+section#main td.col1{
+	width: 60px;
+	text-align: center;
+}
+section#main td.col2{
+	
+}
+section#main td.col3{
+	width: 60px;
+	text-align: center;	
+}
+section#main td.col4{
+	width: 80px;
+	text-align: center;		
+}
+section#main td.col5{
+	width: 60px;
+	text-align: center;		
+}
+section#main td a:link{
+	text-decoration: none;
+	color: #444444;
+}
+section#main td a:hover{
+	text-decoration: none;
+	color: #444444;	
+}
+section#main td a:VISITED {
+	text-decoration: none;
+	color: #444444;		
+}
+section#main td a:ACTIVE {
+	text-decoration: none;
+	color: #444444;		
+}
+section #buttons{
+	margin-top: 20px;
+}
+section #buttons .col1{
+	float: left;
+	margin-left: 300px;
+}
+section #buttons .col2{
+	float: right;
+	margin-right: 10px;
+}
 
 
 
