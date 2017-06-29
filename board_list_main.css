@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+/* 우측 메인 컨텐츠*/
+section#main{
+	width: 758px;
+	float: right;
+}
+section#main h2#board_title{
+	margin-top: 20px;
+	padding: 0 0 5px 0;
+	border-bottom: solid 1px #bbbbbb;
+}
+
+section#main #total_search{
+	height: 35px;
+	position: relative;
+}
+
+section#main #total{
+	position: absolute;
+	top: 10px;
+}
+section#main #search{
+	position: absolute;
+	left: 460px;
+}
+section#main #search #select_img{
+	position: absolute;
+	top: 9px;
+}
+section#main #search #search_select{
+	position: absolute;
+	top: 5px;
+	left: 60px;
+}
+section#main #search #search_input{
+	position: absolute;
+	top: 7px;
+	left: 130px;
+}
+section#main #search #search_input input{
+	width: 100px;
+}
+section#main #search #search_btn{
+	position: absolute;
+	top: 6px;
+	left: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
