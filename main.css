@@ -104,7 +104,44 @@ section#main .latest_content .list .subject{
 	width: 170px;
 }
 
+/*자유게시판 박스*/
+section#main #free{
+	width: 360px;
+	position: absolute;	
+	top: 120px;
+}
 
+/*YOUTUBE 동영상 박스*/
+section#main #youtube{
+	width: 365px;
+	height: 250px;
+	position: absolute;
+	left: 380px;
+}
+section#main #youtube_img{
+	margin: 10px 0 0 45px;
+}
+
+/*포토갤러리*/
+section#main #gallery_box{
+	width: 749px;
+	height: 204px;
+	margin: 10px 0 0 5px;
+	border: solid 1px #cccccc;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px #dddddd;
+}
+section #gallery_list{
+	padding: 25px 0 0 18px;
+}
+section .items{
+	float: left;
+	text-align: center;
+	margin-left: 35px;
+}
+section .items li{
+	margin-top: 3px;
+}
 
 
 
