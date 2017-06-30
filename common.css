@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "맑은 고딕","돋음";
+	font-size: 12px;
+	color: #444444;
+	background-color: #f2f0f0;
+}
+
+ul{
+	list-style-type: none;
+}
+a:link,a:VISITED,a:HOVER,a:ACTIVE {
+	text-decoration: none;
+	color: #444444;
+}
+.clear{
+	clear:both;
+}
+
+/*  헤더   */
+header{
+	height: 128px;
+}
+header #top{
+	width: 990px;
+	margin: 0 auto;
+}
+header #logo{
+	float: left;
+	margin: 30px 0 0 0;
+}
+header #search{
+	float: left;
+	font-family: "Sans-serif";
+	font-size: 14px;
+	color: #96c11f;
+	margin: 40px 0 0 150px;
+}
+header #search #search_title{
+	float: left;
+	margin-top: 8px;
+}
+header #search #search_form{
+	float: left;
+}
+header #search #search_form input {
+	width: 80px;
+	height: 20px;
+	border: 0;
+	background-color: #f2f0f0;
+	border-bottom: solid 1px #cccccc;
+	margin-left: 5px;
+}
+header #search #search_button{
+	float: left;
+	margin: 3px 0 0 3px;
+}
+
+/* 상단 메뉴 */
+header #top_menu{
+	float: right;
+	margin-top: 45px;
+}
+header #top_menu a:link{
+	font-size: 11px;
+	color: #888888;
+}
+header #top_menu a:HOVER {
+	font-size: 11px;
+	color: #888888;
+}
+header #top_menu a:ACTIVE {
+	font-size: 11px;
+	color: #888888;
+}
+header #top_menu li.green a:link{
+	color: #96c11f;
+}
+header #top_menu li.green a:VISITED{
+	color: #96c11f;
+}
+header #top_menu li.green a:HOVER{
+	color: #96c11f;
+}
+header #top_menu li.green a:ACTIVE{
+	color: #96c11f;
+}
+header #top_menu li{
+	display: inline;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
