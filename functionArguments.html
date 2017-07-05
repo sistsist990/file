@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- 
+	*함수 매개변수와 인자
+	 - 자바스크립트 함수 정의 시 선언된 매개변수에 
+	   상관없이 인자를 전달할 수 있음.어떤 데이터 타입의 값도 전달 가능.
+	   
+	 -선언된 매개변수보다 적은 수의 인자 값들을 전달하면,
+	  값을 전달받지 못한 남은 매개변수들은 undefined 값을 갖게됨.
+	  
+	 -생략이 가능한 매개변수는 매개변수 목록의 끝에 위치하도록 하여
+	 생략할 수 있게 만드는 것이 중요함.
+	 
+	     
+ -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//함수의 생략 가능한 매개변수
+		function sum(array,start,end){
+			if(!array){
+				array=[];
+			}
+			//start에 전달된 값이 없을 경우 0을 할당
+			if(!start) start=0;
+			//매개변수 end에 전달된 값이 없을 경우 ==>원소의 갯수를 할당
+			if(!end) end=array.length;
+			
+			//매개변수 array에 전달된 값이 배열 객체에만 합계 계산.
+			if(array instanceof Array){
+				//start와 end에 전달된 값이 숫자인 경우만 계산.
+				if((typeof start) !='number' || (typeof end) !='number')
+					throw new Error('sum(): 두번째와 세번째 매개변수의 전달인자는 숫자여야합니다.');
+				
+				var result=0;
+				for(var i=start;i<end;i++){
+					//배열array의 원소가 숫자타입 경우의 합계 계산.
+					if((typeof array[i]) !='number')
+						throw new Error('sum() : array[' +i+ ']에 저장된 값 ' 
+								+array[i]+' 는 숫자가 타입이 아닙니다. ');
+					result +=array[i];
+				}
+				return result;
+			}else{	//매개변수 array에 전달된 값이 배열 객체가 아닌경우
+				throw new Error('sum(): 첫번째 매개변수의 전달인자는 배열이어야 합니다.');
+			}	
+		}	//sum()
+		
+		var arr1=[1,2,3,4,5];
+		var obj={name:'정도전',phone:'010-1234-5678'};
+		var arr2=[1,2,'3rd',4,5];
+		
+		try{
+			document.writeln('sum(arr1,0,arr1.length) : '+sum(arr1,0,arr1.length) +'<br/>' );
+		}catch(e){
+			document.writeln(e +'<br/>');
+		}
+	
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
