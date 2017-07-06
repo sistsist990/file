@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*
+			사칙연산 계산기
+			-같은 결과가 나오도록 콜백함수로 구현하시오.
+			
+		*/
+		//사칙연산 함수
+		function calculator(op,num1,num2,callback){
+			var result="";
+			switch(op){
+			case "+" :
+				result=num1+num2;
+				break;
+			case "-" :
+				result=num1-num2;
+				break;
+			case "*" :
+				result=num1*num2;
+				break;
+			case "/" :
+				result=num1/num2;
+				break;				
+			default:
+				result="지원하지 않는 연산자입니다.";
+			}
+			
+			callback(result);
+
+		}
+		
+		function print1(result){
+			document.writeln("두 수의 합은 " +result+"입니다.",
+			"<br/>"); 			
+		}
+		
+		function print2(result){
+			document.writeln("정답은  " +result+"입니다. <br/>"); 			
+		}		
+		
+
+		calculator("+",10,20,print1);
+		calculator("+",10,20,print2);
+	
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
